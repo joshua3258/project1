@@ -2,57 +2,62 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Week 1 Task</title>
-
+    <title>practical 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet"    
   href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
 <body>
-    <form id="create-account-form" action='result.html' method="GET">
-        <div class="title">
-            <h2>CREATE ACCOUNT</h2>
-        </div> 
-        <!--USERNAME-->
-        <div class="input-group ">
-            <label for="username">NAME</label>
-            <input type="text" id="username" placeholder="Name" name="username">
-            <i class='bx bxs-error-alt'></i>
-            <i class='bx bxs-check-square'></i>
-            <p>Error Message</p>
+    <section class="home">
+    <div class="shape"></div>
+    <div class="about">
+        <h3>About Your Privacy</h3>
+        <p class="body-text">We process your data to deliver content or advertisements and measure
+             the delivery of such content or advertisements to extract insights about
+              our website. We share this information with our partners on the basis
+               of consent and legitimate interest. You may exercise your right to 
+               consent or object to a legitimate interest, based on a specific purpose 
+               below or at a partner level in the link under each purpose. 
+               These choices will be signaled to our vendors.
+        </p>
+        <div class="button1">Allow all</div>
+        <div class="headtext">Manage Consent Preferences</div>
+        <!--box1-->
+        <section class="box1">
+            <i class='bx bx-plus'></i>
+            <div class="text1">Strictly Necessary Cookies</div> 
+            <span>Always Active</span>
+        </section>
+        <!--box2-->
+        <section class="box1">
+            <i class='bx bx-plus'></i>
+            <div class="text1">Functional Cookies</div> 
+            <span><img src="./img/open btn.svg"> </span>
+        </section>
+        <!--box3-->
+        <section class="box1">
+            <i class='bx bx-plus'></i>
+            <div class="text1">Performance Cookies</div> 
+            <span><img src="./img/close btn.svg"> </span>
+        </section>
+        <!--big box-->
+        <section class="box-big">
+            <i class='bx bx-plus'></i>
+            <div class="text1">Personalised ads and content 
+                measurement, audience insights and product 
+                development</div> 
+            <span><img src="./img/open btn.svg"> </span>
+        </section>
+        <div class="btn1">
+            <div class="btn-text">Reject all</div>
+            <div class="btn-text2">Submit My Choices</div>
         </div>
-        <!--EMAIL-->
-        <div class="input-group">
-            <label for="email">EMAIL</label>
-            <input type="email" id="email" placeholder="Email" name="email">
-            <i class='bx bxs-error-alt'></i>
-            <i class='bx bxs-check-square'></i>
-            <p>Error Message</p>
-        </div>
-        <!--PASSWORD-->
-        <div class="input-group">
-            <label for="password">PASSWORD</label>
-            <input type="password" id="password" placeholder="Password" name="password">
-            <i class='bx bxs-error-alt'></i>
-            <i class='bx bxs-check-square'></i>
-            <p>Error Message</p>
-        </div>
-        <!--CONFIRM PASSWORD-->
-        <div class="input-group">
-            <label for="confirm-password">CONFIRM PASSWORD</label>
-            <input type="password" id="confirm-password" placeholder="Confirm Password" name="confirmpassword">
-            <i class='bx bxs-error-alt'></i>
-            <i class='bx bxs-check-square'></i>
-            <p>Error Message</p>
-        </div>
-
-        <button type="submit" class="btn">Submit</button>
-    </form>
-    
-       
-
-    <script src="script.js"></script>
+    </div>
+    </div>
+    </section>
 </body>
 </html>

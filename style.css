@@ -1,73 +1,164 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
     box-sizing: border-box;
 }
-body{
-    display: flex;
-    justify-content: center;
+.home{
     align-items: center;
-    min-height: 100vh;
-    background-color: blueviolet;
+    justify-content: center;
+    width: 1600px;
+    height: 1200px;
+    padding: 186px 472px 187px 472px;
+    background: #F1F4FD;
 }
-#create-account-form {
+.shape{
     width: 400px;
-    height: auto;
-    padding: 20px;
-    text-transform: uppercase;
-    background-color: #fff;
+    height: 484px;
+    flex-shrink: 0;
+    margin: 10px 20px;
+    border-radius: 80px;
+    background: #131339;
 }
-.title{
-    margin-bottom: 20px;
-    margin: 0px 60px;
+.about{
+    padding: 54px;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 463px;
+    height: 644px;
+    margin: -400px 100px ;
+    gap: 40px;
+    background: #FAFBFF;
+    border-radius: 32px;
+    box-shadow: 20px 34px 74px 0px rgba(21, 21, 106, 0.07);
 }
-.input-group{
-    margin: 20px 0;
-    position: relative;
+h3{
+    padding-bottom: 5px;
+    color: #131339;
 }
-.input-group label{
-    display: inline-block;
+p{
+    display: flex;
+    width: 370px;
+    flex-direction: column;
+    color: var(--131339, #131339);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 10px;
+}
+.button1{
+    display: flex;
+    padding: 10px 20px;
+    height: 40px;
+    width: 110px;
+    align-items: flex-start;
+    gap: 16px;
+    background: #131339;
+    border-radius: 32px;
+    color: #fff;
+}
+.button1:hover{
+    background: #F1F4FD;
+    color: #131339;
+    font-weight: bolder;
+    width: 120px;
+    cursor: pointer;
+}
+.headtext{
+    color: var(--131339, #131339);
+    font-size: 16px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.box1{
+    display: flex;
+    width: 380px;
+    height: 46px;
+    padding: 10px;
+    align-items: center;
+    gap: 16px;
+    border-radius: 8px;
+    background: #FFF;
     margin-bottom: 5px;
 }
-.input-group input{
-    display: block;
-    width: 100%;
-    padding: 10px;
+.text1{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 0;
+    color: var(--131339, #131339);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
 }
-.error input{
-    border: 3px solid red;
+span{
+    color: var(--131339, #131339);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.5;
 }
-.success input{
-    border: 3px solid green;
+.box-big{
+        display: flex;
+        width: 380px;
+        height: 86px;
+        padding: 10px;
+        align-items: center;
+        gap: 16px;
+        border-radius: 8px;
+        background: #FFF;
+        margin-bottom: 10px;
 }
-.input-group i{
-    position: absolute;
-    right: 10px;
-    top: 35px;
-    visibility: hidden;
+.btn1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 40px;
+    width: 500px;
+    border-radius: 32px;
 }
-.error i.bxs-error-alt{
-    visibility: visible;
-    color: red;
+.btn-text{
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    height: 40px;
+    width: 100px;
+    padding: 10px 14px;
+    border-radius: 32px;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: #131339;
 }
-.success i.bxs-check-square{
-    visibility: visible;
-    color: green;
+.btn-text:hover{
+    cursor: pointer;
+    color: #131339;
+    font-weight: 800px;
+    background: #F1F4FD;
 }
-.input-group p{
-    font-size: 15px;
-    color: red;
-    visibility: hidden;
+.btn-text2{
+    display: flex;
+    padding: 10px 24px;
+    height: 40px;
+    width: 195px;
+    border-radius: 32px;
+    background: var(--131339, #131339);
+    color: #FFF;
 }
-.error p{
-    visibility: visible;
-}
-.btn{
-    width: 100%;
-    padding: 10px;
-    font-size: 20px;
-    background-color: black;
-    color: #fff;
-    text-transform: uppercase;
-    border: none;
+.btn-text2:hover{
+    cursor: pointer;
+    color: #131339;
+    font-weight: 800px;
+    background: #F1F4FD;
 }
